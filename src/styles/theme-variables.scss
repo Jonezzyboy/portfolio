@@ -1,8 +1,21 @@
+// Fonts
+$font-size: 18px;
+
+
+// Themes
 // Light Mode - Default 
 
-$background-gradient-yellow: #F6AE2D;
-$background-gradient-orange: #DD6E42;
+$blue-light: #20A4F3;
+$blue-dark: #2C365E;
+$yellow-light: #F6AE2D;
+$orange-dark: #DD6E42;
+$snow: #FCF7F8;
 
+$background-gradient-yellow: $yellow-light;
+$background-gradient-orange: $orange-dark;
 
 
 // TODO: Create Dark Mode Theme
+
+$background-gradient-yellow-dark: darken($background-gradient-yellow, 40%);
+$background-gradient-orange-dark: darken($background-gradient-orange, 40%);

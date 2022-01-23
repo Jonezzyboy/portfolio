@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: $font-size;
+    color: white;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(to right, $background-gradient-yellow, $background-gradient-orange);
+}
