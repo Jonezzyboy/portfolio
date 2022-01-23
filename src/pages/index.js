@@ -1,14 +1,14 @@
 import * as React from "react"
-import "../styles/index.scss"
+import Layout from '../components/Layout'
 
-const IndexPage = () => {
+export default function Home() {
   return (
-    <main>
+    <Layout>
+      <main>
 
-      <title>Home Page</title>
+        <title>Home Page</title>
 
-    </main>
+      </main>
+    </Layout>
   )
 }
-
-export default IndexPage
