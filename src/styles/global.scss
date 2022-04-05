@@ -12,5 +12,8 @@ html, body {
 }
 
 body {
-    background: linear-gradient(to right, $background-gradient-yellow, $background-gradient-orange);
+    background: rgb(33,30,189);
+    background: -moz-linear-gradient(0deg, rgba(33,30,189,1) 0%, rgba(51,8,103,1) 80%);
+    background: -webkit-linear-gradient(0deg, rgba(33,30,189,1) 0%, rgba(51,8,103,1) 80%);
+    background: linear-gradient(0deg, rgba(33,30,189,1) 0%, rgba(51,8,103,1) 80%);
 }
