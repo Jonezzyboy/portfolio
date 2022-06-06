@@ -6,7 +6,7 @@ export default function Home() {
     <Layout>
       <main>
 
-        <title>Home Page</title>
+        <title>Alan Jones: Home</title>
 
       </main>
     </Layout>
