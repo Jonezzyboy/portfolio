@@ -1,6 +1,6 @@
 // Fonts
 $font-size: 18px;
-
+$heading-scale: 5;
 
 // Themes
 // Light Mode - Default 
@@ -19,6 +19,12 @@ $colours: (
     @each $name, $value in $colours {
         --#{$name}: #{$value};
     }
+
+    @for $i from 1 through 6 {
+        h#{$i} {
+          font-size: $font-size + $heading-scale * (6 - $i);
+        }
+      }
 }
 
 $bg-gradient: 0deg, var(--bg-1) 0%, var(--bg-2) 25%, var(--bg-3) 50%, var(--bg-4) 75%, var(--bg-5) 100%;
